@@ -25,7 +25,7 @@ CFG = {
     #  - is the VENUE usable? -> 30d average turnover on the exchange we'd trade
     # Using only the venue figure wrongly rejects majors: DOGE trades billions
     # globally but only ~$16m/day on the Coinbase USD book.
-    "min_global_dollar_vol": 50_000_000,
+    "min_global_dollar_vol": 25_000_000,
     "min_venue_dollar_vol":   1_000_000,
     "stablecoin_skip": {"USDT","USDC","DAI","FDUSD","USDE","PYUSD","TUSD","USDS","BUSD","USDD","FRAX","LUSD","GUSD","EURC","RLUSD"},
     "wrapped_skip": {"WBTC","WETH","WBETH","STETH","WSTETH","RETH","CBBTC","WEETH","METH","SOLVBTC","BSC-USD"},
