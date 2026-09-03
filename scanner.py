@@ -20,7 +20,13 @@ OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 # ---------------------------------------------------------------- config
 CFG = {
     "universe_size": 100,
-    "min_avg_dollar_vol": 20_000_000,   # 30d average, USD
+    # Liquidity is two questions, not one:
+    #  - is the COIN liquid?  -> global 24h turnover from CMC
+    #  - is the VENUE usable? -> 30d average turnover on the exchange we'd trade
+    # Using only the venue figure wrongly rejects majors: DOGE trades billions
+    # globally but only ~$16m/day on the Coinbase USD book.
+    "min_global_dollar_vol": 50_000_000,
+    "min_venue_dollar_vol":   1_000_000,
     "stablecoin_skip": {"USDT","USDC","DAI","FDUSD","USDE","PYUSD","TUSD","USDS","BUSD","USDD","FRAX","LUSD","GUSD","EURC","RLUSD"},
     "wrapped_skip": {"WBTC","WETH","WBETH","STETH","WSTETH","RETH","CBBTC","WEETH","METH","SOLVBTC","BSC-USD"},
     "swing":    {"donchian": 20, "vol_mult": 1.5, "base_min": 10, "base_max": 30, "max_base_range": 0.25, "max_extension": 0.10},
@@ -143,7 +149,7 @@ def get_candles(symbol):
     return None, None
 
 # ---------------------------------------------------------------- the ruleset
-def evaluate(sym, rows, mode, btc_ret30):
+def evaluate(sym, rows, mode, btc_ret30, global_vol24h=None):
     """Return a candidate dict if every gate passes, else a dict explaining the first failure."""
     p = CFG[mode]
     c = [r["c"] for r in rows]; h = [r["h"] for r in rows]
@@ -157,9 +163,11 @@ def evaluate(sym, rows, mode, btc_ret30):
     avg_vol20 = sma(v, 20); avg_vol50 = sma(v, 50)
     dollar_vol = sma([c[i]*v[i] for i in range(-30, 0)], 30)
 
-    # G1 liquidity
-    if dollar_vol < CFG["min_avg_dollar_vol"]:
-        return {"pass": False, "why": f"illiquid (${dollar_vol/1e6:.1f}m/day)"}
+    # G1 liquidity - global first, then venue depth
+    if global_vol24h is not None and global_vol24h < CFG["min_global_dollar_vol"]:
+        return {"pass": False, "why": f"coin illiquid globally (${global_vol24h/1e6:.0f}m/24h)"}
+    if dollar_vol < CFG["min_venue_dollar_vol"]:
+        return {"pass": False, "why": f"thin on venue (${dollar_vol/1e6:.2f}m/day)"}
     # G2 trend
     if not (close > sma50 and sma50 > sma200):
         return {"pass": False, "why": "not in uptrend (needs close>50SMA>200SMA)"}
@@ -234,7 +242,8 @@ def evaluate(sym, rows, mode, btc_ret30):
         "vol_ratio": round(vol_ratio, 2), "base_range_pct": round(base_range * 100, 1),
         "extension_pct": round(ext * 100, 2), "rsi": round(r14, 1) if r14 else None,
         "atr_pct": round(a14 / close * 100, 2), "rs_vs_btc_30d": round(rs * 100, 1),
-        "avg_dollar_vol_m": round(dollar_vol / 1e6, 1),
+        "venue_dollar_vol_m": round(dollar_vol / 1e6, 2),
+        "global_vol_24h_m": round(global_vol24h / 1e6, 0) if global_vol24h else None,
         "score_parts": {"volume": round(s_vol,1), "base": round(s_base,1),
                         "rel_strength": round(s_rs,1), "not_extended": round(s_ext,1),
                         "trend": round(s_trend,1)},
@@ -268,7 +277,7 @@ def run():
         if not rows:
             failed.append(sym); continue
         for mode in ("swing", "position"):
-            r = evaluate(sym, rows, mode, btc_ret30)
+            r = evaluate(sym, rows, mode, btc_ret30, coin.get("vol24h"))
             if r.get("pass"):
                 r.update({"name": coin["name"], "cmc_rank": coin["rank"],
                           "venue": venue, "chart": tv_link(sym, venue)})
