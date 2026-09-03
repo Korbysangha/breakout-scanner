@@ -1,0 +1,356 @@
+{
+  "generated_at": "2026-09-03T18:42:02.545512+00:00",
+  "market_regime": "mixed",
+  "btc_30d_return_pct": 26.5,
+  "universe_scanned": 90,
+  "no_price_data": [
+    "LEO",
+    "GRAM",
+    "KCS",
+    "GT",
+    "NEXO",
+    "\u5e01\u5b89\u4eba\u751f",
+    "PONS"
+  ],
+  "counts": {
+    "swing_setups": 0,
+    "position_setups": 0
+  },
+  "swing_top": [],
+  "position_top": [],
+  "all_candidates": [],
+  "rejection_reasons": {
+    "BTC": {
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
+    },
+    "ETH": {
+      "swing": "no 20d close breakout",
+      "position": "no 50d close breakout"
+    },
+    "BNB": {
+      "swing": "illiquid ($2.4m/day)",
+      "position": "illiquid ($2.4m/day)"
+    },
+    "XRP": {
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
+    },
+    "SOL": {
+      "swing": "no 20d close breakout",
+      "position": "no 50d close breakout"
+    },
+    "TRX": {
+      "swing": "illiquid ($1.0m/day)",
+      "position": "illiquid ($1.0m/day)"
+    },
+    "HYPE": {
+      "swing": "no 20d close breakout",
+      "position": "no 50d close breakout"
+    },
+    "ZEC": {
+      "swing": "volume only 1.09x avg",
+      "position": "base too wide (255%)"
+    },
+    "DOGE": {
+      "swing": "illiquid ($16.2m/day)",
+      "position": "illiquid ($16.2m/day)"
+    },
+    "XMR": {
+      "swing": "illiquid ($4.1m/day)",
+      "position": "illiquid ($4.1m/day)"
+    },
+    "LINK": {
+      "swing": "illiquid ($15.2m/day)",
+      "position": "illiquid ($15.2m/day)"
+    },
+    "ADA": {
+      "swing": "illiquid ($17.5m/day)",
+      "position": "illiquid ($17.5m/day)"
+    },
+    "XLM": {
+      "swing": "illiquid ($10.6m/day)",
+      "position": "illiquid ($10.6m/day)"
+    },
+    "BCH": {
+      "swing": "illiquid ($3.3m/day)",
+      "position": "illiquid ($3.3m/day)"
+    },
+    "CC": {
+      "swing": "illiquid ($1.1m/day)",
+      "position": "illiquid ($1.1m/day)"
+    },
+    "USD1": {
+      "swing": "illiquid ($1.0m/day)",
+      "position": "illiquid ($1.0m/day)"
+    },
+    "LTC": {
+      "swing": "illiquid ($7.5m/day)",
+      "position": "illiquid ($7.5m/day)"
+    },
+    "UNI": {
+      "swing": "illiquid ($9.4m/day)",
+      "position": "illiquid ($9.4m/day)"
+    },
+    "HBAR": {
+      "swing": "illiquid ($4.3m/day)",
+      "position": "illiquid ($4.3m/day)"
+    },
+    "USDG": {
+      "swing": "illiquid ($0.8m/day)",
+      "position": "illiquid ($0.8m/day)"
+    },
+    "AVAX": {
+      "swing": "illiquid ($6.5m/day)",
+      "position": "illiquid ($6.5m/day)"
+    },
+    "SUI": {
+      "swing": "illiquid ($12.8m/day)",
+      "position": "illiquid ($12.8m/day)"
+    },
+    "SHIB": {
+      "swing": "illiquid ($0.8m/day)",
+      "position": "illiquid ($0.8m/day)"
+    },
+    "CRO": {
+      "swing": "illiquid ($0.8m/day)",
+      "position": "illiquid ($0.8m/day)"
+    },
+    "XAUT": {
+      "swing": "illiquid ($0.4m/day)",
+      "position": "illiquid ($0.4m/day)"
+    },
+    "NEAR": {
+      "swing": "illiquid ($8.4m/day)",
+      "position": "illiquid ($8.4m/day)"
+    },
+    "TAO": {
+      "swing": "illiquid ($6.8m/day)",
+      "position": "illiquid ($6.8m/day)"
+    },
+    "M": {
+      "swing": "illiquid ($0.1m/day)",
+      "position": "illiquid ($0.1m/day)"
+    },
+    "OKB": {
+      "swing": "insufficient history",
+      "position": "insufficient history"
+    },
+    "AAVE": {
+      "swing": "illiquid ($4.9m/day)",
+      "position": "illiquid ($4.9m/day)"
+    },
+    "ASTER": {
+      "swing": "illiquid ($0.4m/day)",
+      "position": "illiquid ($0.4m/day)"
+    },
+    "PAXG": {
+      "swing": "illiquid ($3.3m/day)",
+      "position": "illiquid ($3.3m/day)"
+    },
+    "MNT": {
+      "swing": "illiquid ($0.1m/day)",
+      "position": "illiquid ($0.1m/day)"
+    },
+    "WLFI": {
+      "swing": "illiquid ($0.9m/day)",
+      "position": "illiquid ($0.9m/day)"
+    },
+    "ONDO": {
+      "swing": "illiquid ($5.4m/day)",
+      "position": "illiquid ($5.4m/day)"
+    },
+    "PUMP": {
+      "swing": "illiquid ($11.0m/day)",
+      "position": "illiquid ($11.0m/day)"
+    },
+    "ENA": {
+      "swing": "illiquid ($7.8m/day)",
+      "position": "illiquid ($7.8m/day)"
+    },
+    "SKY": {
+      "swing": "illiquid ($0.3m/day)",
+      "position": "illiquid ($0.3m/day)"
+    },
+    "PEPE": {
+      "swing": "illiquid ($2.5m/day)",
+      "position": "illiquid ($2.5m/day)"
+    },
+    "DOT": {
+      "swing": "illiquid ($3.6m/day)",
+      "position": "illiquid ($3.6m/day)"
+    },
+    "WLD": {
+      "swing": "illiquid ($2.2m/day)",
+      "position": "illiquid ($2.2m/day)"
+    },
+    "ICP": {
+      "swing": "illiquid ($2.4m/day)",
+      "position": "illiquid ($2.4m/day)"
+    },
+    "BGB": {
+      "swing": "illiquid ($0.0m/day)",
+      "position": "illiquid ($0.0m/day)"
+    },
+    "MORPHO": {
+      "swing": "illiquid ($1.4m/day)",
+      "position": "illiquid ($1.4m/day)"
+    },
+    "U": {
+      "swing": "illiquid ($0.0m/day)",
+      "position": "illiquid ($0.0m/day)"
+    },
+    "ETC": {
+      "swing": "illiquid ($1.0m/day)",
+      "position": "illiquid ($1.0m/day)"
+    },
+    "PI": {
+      "swing": "insufficient history",
+      "position": "insufficient history"
+    },
+    "LIT": {
+      "swing": "illiquid ($0.1m/day)",
+      "position": "illiquid ($0.1m/day)"
+    },
+    "POL": {
+      "swing": "illiquid ($1.7m/day)",
+      "position": "illiquid ($1.7m/day)"
+    },
+    "ARB": {
+      "swing": "illiquid ($1.9m/day)",
+      "position": "illiquid ($1.9m/day)"
+    },
+    "JST": {
+      "swing": "illiquid ($0.0m/day)",
+      "position": "illiquid ($0.0m/day)"
+    },
+    "ALGO": {
+      "swing": "illiquid ($1.6m/day)",
+      "position": "illiquid ($1.6m/day)"
+    },
+    "VVV": {
+      "swing": "illiquid ($4.6m/day)",
+      "position": "illiquid ($4.6m/day)"
+    },
+    "KAS": {
+      "swing": "illiquid ($0.5m/day)",
+      "position": "illiquid ($0.5m/day)"
+    },
+    "ATOM": {
+      "swing": "illiquid ($0.9m/day)",
+      "position": "illiquid ($0.9m/day)"
+    },
+    "QNT": {
+      "swing": "illiquid ($0.4m/day)",
+      "position": "illiquid ($0.4m/day)"
+    },
+    "JUP": {
+      "swing": "illiquid ($0.5m/day)",
+      "position": "illiquid ($0.5m/day)"
+    },
+    "RENDER": {
+      "swing": "illiquid ($1.3m/day)",
+      "position": "illiquid ($1.3m/day)"
+    },
+    "STABLE": {
+      "swing": "illiquid ($0.0m/day)",
+      "position": "illiquid ($0.0m/day)"
+    },
+    "FIL": {
+      "swing": "illiquid ($2.3m/day)",
+      "position": "illiquid ($2.3m/day)"
+    },
+    "TRUMP": {
+      "swing": "illiquid ($8.3m/day)",
+      "position": "illiquid ($8.3m/day)"
+    },
+    "CAKE": {
+      "swing": "illiquid ($0.1m/day)",
+      "position": "illiquid ($0.1m/day)"
+    },
+    "FLR": {
+      "swing": "illiquid ($0.6m/day)",
+      "position": "illiquid ($0.6m/day)"
+    },
+    "XDC": {
+      "swing": "illiquid ($0.3m/day)",
+      "position": "illiquid ($0.3m/day)"
+    },
+    "DASH": {
+      "swing": "illiquid ($1.7m/day)",
+      "position": "illiquid ($1.7m/day)"
+    },
+    "VET": {
+      "swing": "illiquid ($0.6m/day)",
+      "position": "illiquid ($0.6m/day)"
+    },
+    "ETHFI": {
+      "swing": "illiquid ($0.4m/day)",
+      "position": "illiquid ($0.4m/day)"
+    },
+    "CRV": {
+      "swing": "illiquid ($2.7m/day)",
+      "position": "illiquid ($2.7m/day)"
+    },
+    "PENGU": {
+      "swing": "illiquid ($4.3m/day)",
+      "position": "illiquid ($4.3m/day)"
+    },
+    "SPX": {
+      "swing": "illiquid ($0.7m/day)",
+      "position": "illiquid ($0.7m/day)"
+    },
+    "APT": {
+      "swing": "illiquid ($1.1m/day)",
+      "position": "illiquid ($1.1m/day)"
+    },
+    "INJ": {
+      "swing": "illiquid ($1.5m/day)",
+      "position": "illiquid ($1.5m/day)"
+    },
+    "STX": {
+      "swing": "illiquid ($1.2m/day)",
+      "position": "illiquid ($1.2m/day)"
+    },
+    "AERO": {
+      "swing": "illiquid ($3.4m/day)",
+      "position": "illiquid ($3.4m/day)"
+    },
+    "VIRTUAL": {
+      "swing": "insufficient history",
+      "position": "insufficient history"
+    },
+    "PYTH": {
+      "swing": "illiquid ($0.5m/day)",
+      "position": "illiquid ($0.5m/day)"
+    },
+    "ZRO": {
+      "swing": "illiquid ($1.1m/day)",
+      "position": "illiquid ($1.1m/day)"
+    },
+    "NIGHT": {
+      "swing": "illiquid ($0.3m/day)",
+      "position": "illiquid ($0.3m/day)"
+    },
+    "FET": {
+      "swing": "illiquid ($3.3m/day)",
+      "position": "illiquid ($3.3m/day)"
+    },
+    "SEI": {
+      "swing": "illiquid ($0.9m/day)",
+      "position": "illiquid ($0.9m/day)"
+    },
+    "TIA": {
+      "swing": "illiquid ($0.8m/day)",
+      "position": "illiquid ($0.8m/day)"
+    },
+    "KITE": {
+      "swing": "illiquid ($0.1m/day)",
+      "position": "illiquid ($0.1m/day)"
+    },
+    "PENDLE": {
+      "swing": "illiquid ($0.7m/day)",
+      "position": "illiquid ($0.7m/day)"
+    }
+  }
+}
