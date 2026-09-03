@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:42:02.545512+00:00",
+  "generated_at": "2026-09-03T19:00:04.179183+00:00",
   "market_regime": "mixed",
-  "btc_30d_return_pct": 26.5,
+  "btc_30d_return_pct": 26.9,
   "universe_scanned": 90,
   "no_price_data": [
     "LEO",
@@ -29,8 +29,8 @@
       "position": "no 50d close breakout"
     },
     "BNB": {
-      "swing": "illiquid ($2.4m/day)",
-      "position": "illiquid ($2.4m/day)"
+      "swing": "volume only 0.77x avg",
+      "position": "volume only 1.00x avg"
     },
     "XRP": {
       "swing": "not in uptrend (needs close>50SMA>200SMA)",
@@ -41,316 +41,316 @@
       "position": "no 50d close breakout"
     },
     "TRX": {
-      "swing": "illiquid ($1.0m/day)",
-      "position": "illiquid ($1.0m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "HYPE": {
       "swing": "no 20d close breakout",
       "position": "no 50d close breakout"
     },
     "ZEC": {
-      "swing": "volume only 1.09x avg",
+      "swing": "volume only 1.11x avg",
       "position": "base too wide (255%)"
     },
     "DOGE": {
-      "swing": "illiquid ($16.2m/day)",
-      "position": "illiquid ($16.2m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "XMR": {
-      "swing": "illiquid ($4.1m/day)",
-      "position": "illiquid ($4.1m/day)"
+      "swing": "volume only 0.85x avg",
+      "position": "volume only 1.00x avg"
     },
     "LINK": {
-      "swing": "illiquid ($15.2m/day)",
-      "position": "illiquid ($15.2m/day)"
+      "swing": "no 20d close breakout",
+      "position": "no 50d close breakout"
     },
     "ADA": {
-      "swing": "illiquid ($17.5m/day)",
-      "position": "illiquid ($17.5m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "XLM": {
-      "swing": "illiquid ($10.6m/day)",
-      "position": "illiquid ($10.6m/day)"
+      "swing": "no 20d close breakout",
+      "position": "no 50d close breakout"
     },
     "BCH": {
-      "swing": "illiquid ($3.3m/day)",
-      "position": "illiquid ($3.3m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "CC": {
-      "swing": "illiquid ($1.1m/day)",
-      "position": "illiquid ($1.1m/day)"
+      "swing": "coin illiquid globally ($21m/24h)",
+      "position": "coin illiquid globally ($21m/24h)"
     },
     "USD1": {
-      "swing": "illiquid ($1.0m/day)",
-      "position": "illiquid ($1.0m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "LTC": {
-      "swing": "illiquid ($7.5m/day)",
-      "position": "illiquid ($7.5m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "UNI": {
-      "swing": "illiquid ($9.4m/day)",
-      "position": "illiquid ($9.4m/day)"
+      "swing": "volume only 1.16x avg",
+      "position": "base too wide (175%)"
     },
     "HBAR": {
-      "swing": "illiquid ($4.3m/day)",
-      "position": "illiquid ($4.3m/day)"
-    },
-    "USDG": {
-      "swing": "illiquid ($0.8m/day)",
-      "position": "illiquid ($0.8m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "AVAX": {
-      "swing": "illiquid ($6.5m/day)",
-      "position": "illiquid ($6.5m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
+    },
+    "USDG": {
+      "swing": "thin on venue ($0.78m/day)",
+      "position": "thin on venue ($0.78m/day)"
     },
     "SUI": {
-      "swing": "illiquid ($12.8m/day)",
-      "position": "illiquid ($12.8m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "SHIB": {
-      "swing": "illiquid ($0.8m/day)",
-      "position": "illiquid ($0.8m/day)"
+      "swing": "thin on venue ($0.84m/day)",
+      "position": "thin on venue ($0.84m/day)"
     },
     "CRO": {
-      "swing": "illiquid ($0.8m/day)",
-      "position": "illiquid ($0.8m/day)"
+      "swing": "coin illiquid globally ($7m/24h)",
+      "position": "coin illiquid globally ($7m/24h)"
     },
     "XAUT": {
-      "swing": "illiquid ($0.4m/day)",
-      "position": "illiquid ($0.4m/day)"
+      "swing": "thin on venue ($0.43m/day)",
+      "position": "thin on venue ($0.43m/day)"
     },
     "NEAR": {
-      "swing": "illiquid ($8.4m/day)",
-      "position": "illiquid ($8.4m/day)"
+      "swing": "no 20d close breakout",
+      "position": "no 50d close breakout"
     },
     "TAO": {
-      "swing": "illiquid ($6.8m/day)",
-      "position": "illiquid ($6.8m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "M": {
-      "swing": "illiquid ($0.1m/day)",
-      "position": "illiquid ($0.1m/day)"
+      "swing": "coin illiquid globally ($2m/24h)",
+      "position": "coin illiquid globally ($2m/24h)"
     },
     "OKB": {
       "swing": "insufficient history",
       "position": "insufficient history"
     },
     "AAVE": {
-      "swing": "illiquid ($4.9m/day)",
-      "position": "illiquid ($4.9m/day)"
+      "swing": "no 20d close breakout",
+      "position": "no 50d close breakout"
     },
     "ASTER": {
-      "swing": "illiquid ($0.4m/day)",
-      "position": "illiquid ($0.4m/day)"
+      "swing": "thin on venue ($0.38m/day)",
+      "position": "thin on venue ($0.38m/day)"
     },
     "PAXG": {
-      "swing": "illiquid ($3.3m/day)",
-      "position": "illiquid ($3.3m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "MNT": {
-      "swing": "illiquid ($0.1m/day)",
-      "position": "illiquid ($0.1m/day)"
+      "swing": "coin illiquid globally ($24m/24h)",
+      "position": "coin illiquid globally ($24m/24h)"
     },
     "WLFI": {
-      "swing": "illiquid ($0.9m/day)",
-      "position": "illiquid ($0.9m/day)"
+      "swing": "coin illiquid globally ($38m/24h)",
+      "position": "coin illiquid globally ($38m/24h)"
     },
     "ONDO": {
-      "swing": "illiquid ($5.4m/day)",
-      "position": "illiquid ($5.4m/day)"
+      "swing": "no 20d close breakout",
+      "position": "no 50d close breakout"
     },
     "PUMP": {
-      "swing": "illiquid ($11.0m/day)",
-      "position": "illiquid ($11.0m/day)"
+      "swing": "no 20d close breakout",
+      "position": "no 50d close breakout"
     },
     "ENA": {
-      "swing": "illiquid ($7.8m/day)",
-      "position": "illiquid ($7.8m/day)"
+      "swing": "volume only 0.62x avg",
+      "position": "volume only 1.00x avg"
     },
     "SKY": {
-      "swing": "illiquid ($0.3m/day)",
-      "position": "illiquid ($0.3m/day)"
+      "swing": "coin illiquid globally ($14m/24h)",
+      "position": "coin illiquid globally ($14m/24h)"
     },
     "PEPE": {
-      "swing": "illiquid ($2.5m/day)",
-      "position": "illiquid ($2.5m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "DOT": {
-      "swing": "illiquid ($3.6m/day)",
-      "position": "illiquid ($3.6m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "WLD": {
-      "swing": "illiquid ($2.2m/day)",
-      "position": "illiquid ($2.2m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "ICP": {
-      "swing": "illiquid ($2.4m/day)",
-      "position": "illiquid ($2.4m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "BGB": {
-      "swing": "illiquid ($0.0m/day)",
-      "position": "illiquid ($0.0m/day)"
+      "swing": "coin illiquid globally ($14m/24h)",
+      "position": "coin illiquid globally ($14m/24h)"
     },
     "MORPHO": {
-      "swing": "illiquid ($1.4m/day)",
-      "position": "illiquid ($1.4m/day)"
+      "swing": "coin illiquid globally ($31m/24h)",
+      "position": "coin illiquid globally ($31m/24h)"
     },
     "U": {
-      "swing": "illiquid ($0.0m/day)",
-      "position": "illiquid ($0.0m/day)"
+      "swing": "thin on venue ($0.01m/day)",
+      "position": "thin on venue ($0.01m/day)"
     },
     "ETC": {
-      "swing": "illiquid ($1.0m/day)",
-      "position": "illiquid ($1.0m/day)"
+      "swing": "coin illiquid globally ($34m/24h)",
+      "position": "coin illiquid globally ($34m/24h)"
     },
     "PI": {
       "swing": "insufficient history",
       "position": "insufficient history"
     },
     "LIT": {
-      "swing": "illiquid ($0.1m/day)",
-      "position": "illiquid ($0.1m/day)"
+      "swing": "thin on venue ($0.15m/day)",
+      "position": "thin on venue ($0.15m/day)"
     },
     "POL": {
-      "swing": "illiquid ($1.7m/day)",
-      "position": "illiquid ($1.7m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "ARB": {
-      "swing": "illiquid ($1.9m/day)",
-      "position": "illiquid ($1.9m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "JST": {
-      "swing": "illiquid ($0.0m/day)",
-      "position": "illiquid ($0.0m/day)"
+      "swing": "coin illiquid globally ($25m/24h)",
+      "position": "coin illiquid globally ($25m/24h)"
     },
     "ALGO": {
-      "swing": "illiquid ($1.6m/day)",
-      "position": "illiquid ($1.6m/day)"
+      "swing": "coin illiquid globally ($25m/24h)",
+      "position": "coin illiquid globally ($25m/24h)"
     },
     "VVV": {
-      "swing": "illiquid ($4.6m/day)",
-      "position": "illiquid ($4.6m/day)"
+      "swing": "coin illiquid globally ($14m/24h)",
+      "position": "coin illiquid globally ($14m/24h)"
     },
     "KAS": {
-      "swing": "illiquid ($0.5m/day)",
-      "position": "illiquid ($0.5m/day)"
+      "swing": "coin illiquid globally ($12m/24h)",
+      "position": "coin illiquid globally ($12m/24h)"
     },
     "ATOM": {
-      "swing": "illiquid ($0.9m/day)",
-      "position": "illiquid ($0.9m/day)"
+      "swing": "coin illiquid globally ($22m/24h)",
+      "position": "coin illiquid globally ($22m/24h)"
     },
     "QNT": {
-      "swing": "illiquid ($0.4m/day)",
-      "position": "illiquid ($0.4m/day)"
+      "swing": "coin illiquid globally ($6m/24h)",
+      "position": "coin illiquid globally ($6m/24h)"
     },
     "JUP": {
-      "swing": "illiquid ($0.5m/day)",
-      "position": "illiquid ($0.5m/day)"
+      "swing": "thin on venue ($0.52m/day)",
+      "position": "thin on venue ($0.52m/day)"
     },
     "RENDER": {
-      "swing": "illiquid ($1.3m/day)",
-      "position": "illiquid ($1.3m/day)"
+      "swing": "coin illiquid globally ($19m/24h)",
+      "position": "coin illiquid globally ($19m/24h)"
     },
     "STABLE": {
-      "swing": "illiquid ($0.0m/day)",
-      "position": "illiquid ($0.0m/day)"
+      "swing": "coin illiquid globally ($12m/24h)",
+      "position": "coin illiquid globally ($12m/24h)"
     },
     "FIL": {
-      "swing": "illiquid ($2.3m/day)",
-      "position": "illiquid ($2.3m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "TRUMP": {
-      "swing": "illiquid ($8.3m/day)",
-      "position": "illiquid ($8.3m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "CAKE": {
-      "swing": "illiquid ($0.1m/day)",
-      "position": "illiquid ($0.1m/day)"
+      "swing": "thin on venue ($0.09m/day)",
+      "position": "thin on venue ($0.09m/day)"
     },
     "FLR": {
-      "swing": "illiquid ($0.6m/day)",
-      "position": "illiquid ($0.6m/day)"
+      "swing": "coin illiquid globally ($3m/24h)",
+      "position": "coin illiquid globally ($3m/24h)"
     },
     "XDC": {
-      "swing": "illiquid ($0.3m/day)",
-      "position": "illiquid ($0.3m/day)"
+      "swing": "coin illiquid globally ($4m/24h)",
+      "position": "coin illiquid globally ($4m/24h)"
     },
     "DASH": {
-      "swing": "illiquid ($1.7m/day)",
-      "position": "illiquid ($1.7m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "VET": {
-      "swing": "illiquid ($0.6m/day)",
-      "position": "illiquid ($0.6m/day)"
-    },
-    "ETHFI": {
-      "swing": "illiquid ($0.4m/day)",
-      "position": "illiquid ($0.4m/day)"
+      "swing": "coin illiquid globally ($17m/24h)",
+      "position": "coin illiquid globally ($17m/24h)"
     },
     "CRV": {
-      "swing": "illiquid ($2.7m/day)",
-      "position": "illiquid ($2.7m/day)"
+      "swing": "volume only 0.71x avg",
+      "position": "volume only 1.01x avg"
+    },
+    "ETHFI": {
+      "swing": "coin illiquid globally ($45m/24h)",
+      "position": "coin illiquid globally ($45m/24h)"
     },
     "PENGU": {
-      "swing": "illiquid ($4.3m/day)",
-      "position": "illiquid ($4.3m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "SPX": {
-      "swing": "illiquid ($0.7m/day)",
-      "position": "illiquid ($0.7m/day)"
+      "swing": "coin illiquid globally ($14m/24h)",
+      "position": "coin illiquid globally ($14m/24h)"
     },
     "APT": {
-      "swing": "illiquid ($1.1m/day)",
-      "position": "illiquid ($1.1m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "INJ": {
-      "swing": "illiquid ($1.5m/day)",
-      "position": "illiquid ($1.5m/day)"
+      "swing": "no 20d close breakout",
+      "position": "no 50d close breakout"
     },
     "STX": {
-      "swing": "illiquid ($1.2m/day)",
-      "position": "illiquid ($1.2m/day)"
+      "swing": "coin illiquid globally ($28m/24h)",
+      "position": "coin illiquid globally ($28m/24h)"
     },
     "AERO": {
-      "swing": "illiquid ($3.4m/day)",
-      "position": "illiquid ($3.4m/day)"
+      "swing": "coin illiquid globally ($36m/24h)",
+      "position": "coin illiquid globally ($36m/24h)"
     },
     "VIRTUAL": {
       "swing": "insufficient history",
       "position": "insufficient history"
     },
     "PYTH": {
-      "swing": "illiquid ($0.5m/day)",
-      "position": "illiquid ($0.5m/day)"
+      "swing": "coin illiquid globally ($33m/24h)",
+      "position": "coin illiquid globally ($33m/24h)"
     },
     "ZRO": {
-      "swing": "illiquid ($1.1m/day)",
-      "position": "illiquid ($1.1m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "NIGHT": {
-      "swing": "illiquid ($0.3m/day)",
-      "position": "illiquid ($0.3m/day)"
+      "swing": "coin illiquid globally ($33m/24h)",
+      "position": "coin illiquid globally ($33m/24h)"
     },
     "FET": {
-      "swing": "illiquid ($3.3m/day)",
-      "position": "illiquid ($3.3m/day)"
+      "swing": "not in uptrend (needs close>50SMA>200SMA)",
+      "position": "not in uptrend (needs close>50SMA>200SMA)"
     },
     "SEI": {
-      "swing": "illiquid ($0.9m/day)",
-      "position": "illiquid ($0.9m/day)"
+      "swing": "thin on venue ($0.86m/day)",
+      "position": "thin on venue ($0.86m/day)"
     },
     "TIA": {
-      "swing": "illiquid ($0.8m/day)",
-      "position": "illiquid ($0.8m/day)"
+      "swing": "coin illiquid globally ($29m/24h)",
+      "position": "coin illiquid globally ($29m/24h)"
     },
     "KITE": {
-      "swing": "illiquid ($0.1m/day)",
-      "position": "illiquid ($0.1m/day)"
+      "swing": "coin illiquid globally ($24m/24h)",
+      "position": "coin illiquid globally ($24m/24h)"
     },
     "PENDLE": {
-      "swing": "illiquid ($0.7m/day)",
-      "position": "illiquid ($0.7m/day)"
+      "swing": "coin illiquid globally ($36m/24h)",
+      "position": "coin illiquid globally ($36m/24h)"
     }
   }
 }
