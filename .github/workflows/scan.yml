@@ -18,6 +18,12 @@ jobs:
         with:
           python-version: '3.11'
 
+      # NEW: prove the gates still behave before trusting a scan.
+      # If Profile A's arithmetic has drifted, this fails and the job stops
+      # here - no scan, no commit, yesterday's data left intact.
+      - name: Selftest
+        run: python scanner.py --selftest
+
       - name: Run scanner
         env:
           CMC_API_KEY: ${{ secrets.CMC_API_KEY }}
